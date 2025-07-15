@@ -72,15 +72,6 @@ Integrated audio feedback with **Tone.js** for correct/incorrect answers and but
 
 ---
 
-## 📂 File Structure
-
-.
-├── index.html # Main HTML entry point
-├── styles.css # Custom styles and animations
-└── script.js # Application logic
-
----
-
 ## ⚡ Getting Started
 
 Follow these steps to run the project locally:
