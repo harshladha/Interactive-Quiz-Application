@@ -89,3 +89,7 @@ cd quiz-application
 ```
 
 3️⃣ **Open ```index.html``` in your web browser**
+
+## OUTPUT
+
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/0ecb22b5-b90d-4a0c-b0e9-1afea808b61d" />
