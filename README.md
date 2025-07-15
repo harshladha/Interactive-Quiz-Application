@@ -92,4 +92,4 @@ cd quiz-application
 
 ## OUTPUT
 
-<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/0ecb22b5-b90d-4a0c-b0e9-1afea808b61d" />
+<img width="1920" height="799" alt="Image" src="https://github.com/user-attachments/assets/571e1a70-904f-4464-88e8-07e5cf689701" />
