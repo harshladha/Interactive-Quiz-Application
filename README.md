@@ -79,10 +79,6 @@ Integrated audio feedback with **Tone.js** for correct/incorrect answers and but
 ├── styles.css # Custom styles and animations
 └── script.js # Application logic
 
-yaml
-Copy
-Edit
-
 ---
 
 ## ⚡ Getting Started
