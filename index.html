@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Quiz Application</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tone/14.7.77/Tone.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Link to your external CSS file -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-gray-100 dark:bg-gray-900 text-gray-800 dark:text-gray-200 flex items-center justify-center min-h-screen p-4 bg-gradient-to-br from-violet-100 via-white to-orange-100 dark:from-gray-800 dark:via-gray-900 dark:to-black">
+
+    <div id="quiz-container" class="quiz-container bg-white dark:bg-gray-800 rounded-2xl shadow-2xl w-full max-w-2xl perspective">
+        <div id="quiz-flipper" class="flipper">
+            <!-- FRONT SIDE OF THE CARD -->
+            <div class="front-face">
+                <!-- Header Section -->
+                <div id="quiz-header" class="flex justify-between items-center border-b border-gray-200 dark:border-gray-700 pb-4 mb-6">
+                    <h1 class="text-2xl sm:text-3xl font-extrabold text-violet-600 dark:text-violet-400">Tech Quiz Pro</h1>
+                    <div class="text-lg font-semibold bg-violet-100 dark:bg-violet-900/50 text-violet-700 dark:text-violet-300 px-4 py-1.5 rounded-full shadow-inner">
+                        <span id="score">Score: 0</span>
+                    </div>
+                </div>
+
+                <!-- Progress Bar -->
+                <div id="progress-bar-container" class="w-full progress-bar-container rounded-full h-3 mb-6">
+                    <div id="progress-bar" class="bg-gradient-to-r from-pink-500 to-violet-500 h-3 rounded-full progress-bar"></div>
+                </div>
+
+                <!-- Question Section -->
+                <div id="question-area">
+                    <h2 id="question-text" class="text-xl sm:text-2xl font-semibold mb-6 min-h-[80px]">Question text goes here...</h2>
+                    <div id="answer-buttons" class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <!-- Answer buttons will be dynamically inserted here -->
+                    </div>
+                </div>
+
+                <!-- Controls Section -->
+                <div id="controls" class="mt-8 pt-4 border-t border-gray-200 dark:border-gray-700 flex justify-between items-center">
+                    <div id="question-counter" class="text-sm font-medium text-gray-500 dark:text-gray-400">Question 1 / 5</div>
+                    <button id="next-btn" class="bg-violet-600 hover:bg-violet-700 text-white font-bold py-2 px-6 rounded-lg hidden transition-all transform hover:scale-105 shadow-md hover:shadow-lg">
+                        Next
+                    </button>
+                </div>
+            </div>
+
+            <!-- BACK SIDE OF THE CARD (RESULTS) -->
+            <div class="back-face">
+                <div id="results-area" class="text-center py-8">
+                     <div id="confetti-container"></div>
+                    <h2 class="text-3xl sm:text-4xl font-bold mb-2 text-violet-600 dark:text-violet-400">Quiz Complete!</h2>
+                    <p id="final-score-text" class="text-xl mb-2 text-gray-600 dark:text-gray-300">Your final score is 0 out of 0.</p>
+                    <p id="results-feedback" class="text-lg mb-8 font-medium"></p>
+                    <button id="restart-btn" class="bg-gradient-to-r from-pink-500 to-violet-500 hover:from-pink-600 hover:to-violet-600 text-white font-bold py-3 px-8 rounded-lg w-full sm:w-auto transition-all transform hover:scale-105 shadow-lg hover:shadow-violet-400/50">
+                        Try Again
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Link to your external JavaScript file -->
+    <script src="script.js" defer></script>
+</body>
+</html>
