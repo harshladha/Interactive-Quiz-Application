@@ -64,6 +64,8 @@ Tone.js: A Web Audio framework for creating interactive music and sounds in the 
 ⚡ Getting Started
 To run this project locally, simply clone the repository and open the index.html file in your web browser.
 
-git clone [https://github.com/your-username/quiz-application.git]
+git clone https://github.com/your-username/quiz-application.git
+
 cd quiz-application
+
 Open index.html in your browser
