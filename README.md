@@ -66,4 +66,4 @@ To run this project locally, simply clone the repository and open the index.html
 
 git clone https://github.com/your-username/quiz-application.git
 cd quiz-application
-# Open index.html in your browser
+Open index.html in your browser
