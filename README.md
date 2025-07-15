@@ -101,4 +101,4 @@ git clone https://github.com/your-username/quiz-application.git
 cd quiz-application
 ```
 
-3️⃣ **Open ``index.html`` in your web browser**
+3️⃣ **Open ```index.html``` in your web browser**
